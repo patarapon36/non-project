@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import FrontPage from './components/frontPage/FrontPage.js';
+import FrontPage from './components/FrontPage/FrontPage.js';
 function App() {
   return (
     <div className="App">
