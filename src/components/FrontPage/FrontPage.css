@@ -1,0 +1,14 @@
+.navbar {
+    border: 1px solid blue;
+    margin: 10px;
+}
+
+.logo {
+    border: 1px solid green;
+    margin: 10px;
+}
+
+.unlist {
+    border: 1px solid red;
+    margin: 10px;
+}
