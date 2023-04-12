@@ -3,6 +3,11 @@
     margin: 10px;
 }
 
+.header {
+    border: 1px solid green;
+    margin: 10px;
+}
+
 .logo {
     border: 1px solid green;
     margin: 10px;
