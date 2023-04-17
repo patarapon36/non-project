@@ -1,17 +1,23 @@
 import './FrontPage.css'
 
-const FrontPage =()=>{
-    return(
+const FrontPage = () => {
+    return (
         <section className='navbar'>
-            <div className='logo'>
-                <h1>My Logo</h1>
+
+            <div className='header'>
+                <div className='logo'>
+                    <h1>My Logo</h1>
+                </div>
+                <h1>My header</h1>
             </div>
-            <ul className='unlist'>
-                <li><a href='#'>home</a></li>
-                <li><a href='#'>about</a></li>
-                <li><a href='#'>blog</a></li>
-                <li><a href='#'>contact</a></li>
-            </ul>
+            <main>
+                <h2>About Me</h2>
+                <p>Hi, my name is John Doe and I'm a web developer.</p>
+                <img src="file://C:/Users/LENOVO/Desktop/test.jpg" alt="example picture"></img>
+            </main>
+            <footer>
+                <p>&copy; 2023 John Doe</p>
+            </footer>
         </section>
     )
 }
