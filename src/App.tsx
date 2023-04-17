@@ -7,7 +7,7 @@ interface DataItem {
   id: number;
   title: string;
   body: string;
-  thumbnailUrl:any;
+  thumbnailUrl: any;
 }
 function App() {
   const [data, setData] = useState<DataItem[] | null>(null);
@@ -16,17 +16,17 @@ function App() {
     const convertData: DataItem[] = await res.json();
     console.log(convertData);
     setData(convertData);
-    
+
   };
   useEffect(() => {
     fetchData();
-    
+
   }, []);
 
   return (
     <div className="App">
       <FrontPage />
-      { data&&data.map((val) => (
+      {data && data.map((val) => (
         <div key={val.id}>
           <h3>{val.title}</h3>
           <img src={val.thumbnailUrl} alt={val.title} />
